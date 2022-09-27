@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -7,12 +6,8 @@ public class Main {
 
         Scanner entrada = new Scanner(System.in);
 
-        System.out.println("Informe um CPF");
-        String cpf = entrada.next();
+        String cpf = "007.354.941-00";
 
-        ValidacaoCPF validacao = new ValidacaoCPF();
-
-        //System.out.println(Arrays.toString(validacao.formatar_cpf(cpf)));
-        validacao.calculador_cpf(validacao.formatar_cpf(cpf));
+        System.out.println(ValidaCPF.validar(cpf));
     }
 }
