@@ -1,1 +1,0 @@
-Sugestão do algoritmo para resolução de cada exercício atribuido aos discentes durante a disciplina de Algoritmos II na UFMS - Codificação em Java - Turma de 2022
